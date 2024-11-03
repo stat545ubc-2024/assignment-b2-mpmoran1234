@@ -15,7 +15,7 @@ The packaged function performs an ANOVA statistical analysis and Tukey's Honestl
 * The NAMESPACE file defines which functions are accessible to users and specifies package dependencies, controlling the import and export of functions.
 * The DESCRIPTION file contains metadata about the package, including its name, version, author, dependencies, and a brief description of its purpose.
 
-#### Install Instructions
+## Install Instructions
 To use the ANOVA.TukeyHSD function, first install the package by cloning this repository and building it with devtools. You will also need the broom package for tidy outputs.
 1. Install the broom package (if not already installed)
   ```{r}
@@ -27,7 +27,7 @@ To use the ANOVA.TukeyHSD function, first install the package by cloning this re
 devtools::install("path/to/your/package")
 ```
 
-#### Demonstrated Usage
+## Demonstrated Usage
 Here’s an example of how to use the ANOVA.TukeyHSD function with sample data:
 ```{r}
 # Load the package
