@@ -26,11 +26,12 @@ To use the ANOVA.TukeyHSD function, first install the package by cloning this re
     # Assuming the repository is cloned locally
     devtools::install("path/to/your/package")
   ```
+
 #### Demonstrated Usage
 Here’s an example of how to use the ANOVA.TukeyHSD function with sample data:
   ```{r}
   # Load the package
-  library(yourpackagename)
+  library(ANOVA.TukeyHSD)
   
   # Sample data frame
   data <- data.frame(
@@ -42,6 +43,5 @@ Here’s an example of how to use the ANOVA.TukeyHSD function with sample data:
   result <- ANOVA.TukeyHSD(data, value ~ group)
   
   # View the results
-  print(result$anova)  # ANOVA summary
-  print(result$tukey)  # Tukey HSD summary
+  print(result)
   ```
