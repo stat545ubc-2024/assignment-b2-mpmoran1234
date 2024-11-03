@@ -7,13 +7,13 @@
 ## Assignment B-2
 Assignment B-2 is an individual project as part of the STAT 545B coursework. Through this project, I will package my function that I made during Assignment B-1.
 
-## Function Description
-The packaged function performs an ANOVA statistical analysis and Tukey's Honestly Significant Difference (HSD) Post Hoc Test. This function streamlines my analysis workflow, especially for my personal dataset.
-
 #### The Files in this Repository Include: README.md, NAMESPACE, and DESCRIPTION. 
 * The README file contains background information on the project and the components included in this repository.
 * The NAMESPACE file defines which functions are accessible to users and specifies package dependencies, controlling the import and export of functions.
 * The DESCRIPTION file contains metadata about the package, including its name, version, author, dependencies, and a brief description of its purpose.
+
+## Package Description
+The packaged function performs an ANOVA statistical analysis and Tukey's Honestly Significant Difference (HSD) Post Hoc Test. This function streamlines my analysis workflow, especially for my personal dataset.
 
 ## Install Instructions
 To use the ANOVA.TukeyHSD function, first install the package by cloning this repository and building it with devtools. You will also need the broom package for tidy outputs.
