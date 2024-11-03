@@ -22,26 +22,26 @@ To use the ANOVA.TukeyHSD function, first install the package by cloning this re
     install.packages("broom")
   ```
 2. Clone this repository and install the package:
-   ```{r}
-    # Assuming the repository is cloned locally
-    devtools::install("path/to/your/package")
-  ```
+```{r}
+# Assuming the repository is cloned locally
+devtools::install("path/to/your/package")
+```
 
 #### Demonstrated Usage
 Here’s an example of how to use the ANOVA.TukeyHSD function with sample data:
-  ```{r}
-  # Load the package
-  library(ANOVA.TukeyHSD)
+```{r}
+# Load the package
+library(ANOVA.TukeyHSD)
   
-  # Sample data frame
-  data <- data.frame(
-    group = rep(letters[1:3], each = 10),
-    value = c(rnorm(10, mean = 5), rnorm(10, mean = 7), rnorm(10, mean = 6))
-  )
+# Sample data frame
+data <- data.frame(
+group = rep(letters[1:3], each = 10),
+value = c(rnorm(10, mean = 5), rnorm(10, mean = 7), rnorm(10, mean = 6))
+)
   
-  # Run the ANOVA and Tukey HSD tests
-  result <- ANOVA.TukeyHSD(data, value ~ group)
+# Run the ANOVA and Tukey HSD tests
+result <- ANOVA.TukeyHSD(data, value ~ group)
   
-  # View the results
-  print(result)
-  ```
+# View the results
+print(result)
+```
