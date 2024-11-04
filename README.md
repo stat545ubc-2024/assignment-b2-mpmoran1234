@@ -27,7 +27,7 @@ To use the ANOVA.TukeyHSD function, install the package using github_install() f
    ```
 3. Install this package from github:
   ```{r}
-  install_github("stat545ubc-2024/assignment-b2-mpmoran1234")![image](https://github.com/user-attachments/assets/0a8afa02-f7b1-45e0-a557-d407d3c7abf4)
+  install_github("stat545ubc-2024/assignment-b2-mpmoran1234")
   ```
 
 ## Demonstrated Usage
