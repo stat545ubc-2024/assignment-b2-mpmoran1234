@@ -16,16 +16,19 @@ Assignment B-2 is an individual project as part of the STAT 545B coursework. Thr
 The packaged function performs an ANOVA statistical analysis and Tukey's Honestly Significant Difference (HSD) Post Hoc Test. This function streamlines my analysis workflow, especially for my personal dataset.
 
 ## Install Instructions
-To use the ANOVA.TukeyHSD function, first install the package by cloning this repository and building it with devtools. You will also need the broom package for tidy outputs.
-1. Install the broom package (if not already installed)
+To use the ANOVA.TukeyHSD function, install the package using github_install() from devtools as shown below:
+1. Install devtools (if not already installed):
+   ```{r}
+   install.packages(devtools)
+   ```
+2. Load devtools:
+   ```{r}
+   library(devtools)
+   ```
+3. Install this package from github:
   ```{r}
-    install.packages("broom")
+    install_github("stat545ubc-2024/assignment-b2-mpmoran1234")![image](https://github.com/user-attachments/assets/0a8afa02-f7b1-45e0-a557-d407d3c7abf4)
   ```
-2. Clone this repository and install the package:
-```{r}
-# Assuming the repository is cloned locally
-devtools::install("path/to/your/package")
-```
 
 ## Demonstrated Usage
 Here’s an example of how to use the ANOVA.TukeyHSD function with sample data:
